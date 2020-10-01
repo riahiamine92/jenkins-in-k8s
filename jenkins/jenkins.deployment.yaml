@@ -42,7 +42,8 @@ spec:
       volumes:
       - name: jenkins
         hostPath:
-        path: /home/vagrant/data
+          path: /home/vagrant/data
+          type: Directory
         
 #        persistentVolumeClaim:
 #          claimName: jenkins-claim
